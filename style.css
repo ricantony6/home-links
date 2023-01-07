@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body {
+    font-family: 'Poppins', sem serifa;
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+}
+
+#container {
+    width: auto;
+    max-width: 588px;
+    margin: 56px auto 0px;
+    padding: 0px 24px;
+}
+#perfil {
+    text-align: center;
+    padding: 24px;
+}
