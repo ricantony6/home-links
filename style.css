@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: auto;
     box-sizing: border-box;
 }
 
@@ -31,8 +31,35 @@ body {
 }
 
 #perfil a {
-    font-weight: 300 600;
+    font-weight: 300 ;
     line-height: 24px;
     margin: 8px;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0px;
+}
+
+ul li a {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    border: 1px solid var(--purple);
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+ul li a:hover {
+    background: var(--purple);
+    border: 1.5px solid var(--text-color);
+    
+}
